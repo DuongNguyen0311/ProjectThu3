@@ -46,11 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Hang.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Hang.Designer.cs">
+      <DependentUpon>Hang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="label.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="label.Designer.cs">
+      <DependentUpon>label.cs</DependentUpon>
     </Compile>
     <Compile Include="haiduong.cs">
       <SubType>Form</SubType>
@@ -60,8 +66,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Hang.resx">
+      <DependentUpon>Hang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="label.resx">
+      <DependentUpon>label.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="haiduong.resx">
       <DependentUpon>haiduong.cs</DependentUpon>

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ProjectThu3
 {
-    public partial class Form1 : Form
+    public partial class haiduong : Form
     {
-        public Form1()
+        public haiduong()
         {
             InitializeComponent();
         }

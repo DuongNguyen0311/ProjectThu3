@@ -36,9 +36,9 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(211, 100);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(77, 16);
+            this.label1.Size = new System.Drawing.Size(109, 16);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Cái mới nha";
+            this.label1.Text = "Cái mới nha hello";
             // 
             // ThuHang2
             // 

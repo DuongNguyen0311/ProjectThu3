@@ -36,9 +36,9 @@
             this.Hello.AutoSize = true;
             this.Hello.Location = new System.Drawing.Point(148, 95);
             this.Hello.Name = "Hello";
-            this.Hello.Size = new System.Drawing.Size(89, 16);
+            this.Hello.Size = new System.Drawing.Size(126, 16);
             this.Hello.TabIndex = 0;
-            this.Hello.Text = "Hello anh em ";
+            this.Hello.Text = "Hello anh em , tui nè";
             this.Hello.Click += new System.EventHandler(this.label1_Click);
             // 
             // label1

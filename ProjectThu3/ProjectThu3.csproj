@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="haiduong2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="haiduong2.Designer.cs">
+      <DependentUpon>haiduong2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Hang.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +72,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="haiduong2.resx">
+      <DependentUpon>haiduong2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Hang.resx">
       <DependentUpon>Hang.cs</DependentUpon>
     </EmbeddedResource>
